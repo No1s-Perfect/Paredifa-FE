@@ -1,0 +1,156 @@
+.aboutUs,
+.email,
+.saveFa,
+.todos,
+.downloadFa,
+.downloadFaSpecific,
+.infoDowloadFa,.displayFa,.deleteFASpecific,.downloadAllDfa,.trashCurrentDfa,.updateCurrentDFA,.filterData{
+    cursor: pointer;
+}
+
+#bottomCanvas{
+    padding-left:8%;
+    padding-right: 8%;
+
+}
+
+.displayDFA{
+    margin-left:8%
+}
+
+.downloadFaSpecific,.deleteFASpecific{
+    margin-right: 4%;
+}
+
+.dfaData{
+    text-align:center;
+}
+
+
+.aboutFetching{
+    text-align: center;
+    margin-top:10%;
+}
+
+.bottomCanvasStyle,.dfaStored,.optionsStoredDfa{
+    display:flex !important;
+    flex-direction: row  !important;
+
+}
+
+.dataBaseActions,.canvasActions{
+    width:50%;
+}
+
+body {
+    overflow: scroll;
+    overflow-x: hidden;
+  
+}
+.dfaRun{
+    padding-top:1%;
+}
+#teamInfo,.emptyDb,.savingDFA,.deleteDFA {
+    margin: auto;
+    text-align: center;
+} 
+
+.spinner {
+    text-align: center;
+}
+
+.automataRun {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1%;
+    margin-bottom: 3%
+}
+
+
+.canvasExtra {
+    display: flex;
+}
+
+.canvas {
+    margin-left: 2%;
+}
+
+
+
+canvas{
+    border-radius: 10px !important;
+    border: solid !important;
+}
+.item {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.FaResults {
+    height: 500px;
+    margin-top: 2.5%;
+    overflow-y: scroll;
+}
+
+.guide {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    cursor: pointer;
+}
+
+.accepted {
+    overflow-y: scroll
+}
+
+#stepsDiv {
+    margin-top: 10% !important;
+}
+
+.errors,
+.accepted {
+    height: 288px;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+
+
+
+.tostada {
+    position: fixed;
+    display: block;
+    left: auto;
+    top: 0;
+    z-index: 11;
+}
+
+.spin {
+    -webkit-animation:spin 1s linear infinite;
+    -moz-animation:spin 1s linear infinite;
+    animation:spin 1s linear infinite;
+}
+
+#dfaIcon{
+
+
+    animation: dfa 1s linear infinite;
+}
+
+.layingDFA{
+    text-align: center;
+    margin-top:1.5%;
+  
+}
+@-moz-keyframes spin { 10% { -moz-transform: rotate(90deg); } }
+@-webkit-keyframes spin { 10% { -webkit-transform: rotate(90deg); } }
+@keyframes spin { 10% { -webkit-transform: rotate(0deg); transform:rotate(-50deg); } }
+
+
+
+@keyframes dfa { 10% { transform-origin: left top;transform: rotateZ(3.142rad);} }
+
+
+
