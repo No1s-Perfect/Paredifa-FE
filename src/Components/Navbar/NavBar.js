@@ -1,5 +1,5 @@
 import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/NavBar";
+import { Navbar } from "react-bootstrap";
 import { useState } from "react";
 import Container from "react-bootstrap/Container";
 import logo from "../../Images/neg_favicon.png";
@@ -7,6 +7,7 @@ import About from "../Modals/NavBarModals/AboutModal/About";
 import Instructions from "../Modals/NavBarModals/GuideModal/Instructions";
 import RegexEditorModal from "../Modals/NavBarModals/ReModal/RegexEditorModal";
 import React from "react";
+
 /*
  *
  * Description:
